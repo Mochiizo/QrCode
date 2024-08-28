@@ -92,11 +92,18 @@ body {
 }
 
 .bottom-bar {
-  border-color: #f9f9f9;
-  size: 50px;
-  border: 0;
+  /*background: #494eea;*/
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-right: 15px;
+  text-align: right; /* Pour centrer le texte horizontalement */
+  line-height: 50px; /* Pour centrer verticalement */
 }
 
-#logo {
+.bottom-bar #logo {
   color: red;
+  background-color: #fff;
+  display: inline-block;
 }
